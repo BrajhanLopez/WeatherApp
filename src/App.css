@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+
+
+*{
+
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.c-card {
+    border-radius: 25px !important;
+    color: white;
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+
+
+}
+
+.c-card2 {
+    border-radius: 0 25px 25px 0 !important;
+    background-color: #222831 !important;
+    color: white;
+}
+
+.ss {
+    text-shadow: 1px 1px 2px black
+}
+
+.c-c {
+    position: relative;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+.c-bbig{
+    font-size: 50px !important;
+}
+
+.fa-cloud-sun-rain{
+    width: 110px;
+}
+
+.spinner {
+    height: 50px;
+    width: max-content;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 1em;
+    color: #ffffff;
+    filter: drop-shadow(0 0 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   
+   .spinner span {
+    animation: loading6454 1.75s ease infinite;
+   }
+   
+   .spinner span:nth-child(2) {
+    animation-delay: 0.25s;
+   }
+   
+   .spinner span:nth-child(3) {
+    animation-delay: 0.5s;
+   }
+   
+   .spinner span:nth-child(4) {
+    animation-delay: 0.75s;
+   }
+   
+   .spinner span:nth-child(5) {
+    animation-delay: 1s;
+   }
+   
+   .spinner span:nth-child(6) {
+    animation-delay: 1.25s;
+   }
+   
+   .spinner span:nth-child(7) {
+    animation-delay: 1.5s;
+   }
+   
+   @keyframes loading6454 {
+    0%, 100% {
+     transform: translateY(0);
+    }
+   
+    50% {
+     transform: translateY(-10px);
+    }
+   }
